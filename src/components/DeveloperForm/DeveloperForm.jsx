@@ -10,6 +10,11 @@ function DeveloperForm({ data, onChange, validation, onAdd }) {
     data.level = value;
   };
 
+  const sendChange = () => {
+    onAdd();
+    setSelectedValue("junior");
+  };
+
   return (
     <div className="fish-form">
       <input
@@ -37,7 +42,7 @@ function DeveloperForm({ data, onChange, validation, onAdd }) {
         onChange={() => handleRadioChange("senior")}
       />
       <label htmlFor="senior">senior</label>
-      <button disabled={!validation} onClick={onAdd}>
+      <button disabled={!validation} onClick={sendChange}>
         Vložit
       </button>
     </div>
