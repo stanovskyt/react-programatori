@@ -1,0 +1,24 @@
+{
+  "developer": [
+    {
+      "id": 1,
+      "name": "Petr Spálený",
+      "level": "senior"
+    },
+    {
+      "id": 2,
+      "name": "Radka Malá",
+      "level": "junior"
+    },
+    {
+      "id": 3,
+      "name": "Ondra Hrubý",
+      "level": "senior"
+    },
+    {
+      "id": 4,
+      "name": "Petra Chytrá",
+      "level": "junior"
+    }
+  ]
+}
